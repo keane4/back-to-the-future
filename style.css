@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+
+.main-block{
+    background: linear-gradient(to right,#000000cc,#ffffff22),
+    url(images/back-to-the-future.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 48px;
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0px;
+    color: rgb(60,60,200);
+    text-shadow: 3px 3px 1px white;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(60,60,200);
+}
+
+.main-block p{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.main-block button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.bg-machine{
+    background: linear-gradient(#000000cc, #000000cc),
+    url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+
+.destination{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.destination img{
+    width: 33%;
+
+}
+
+.cast{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.actor{
+    border: 1px solid rgb(255,199,0);
+    width: 250px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.actor img{
+    width: inherit;
+    display: block;
+}
+.actor p{
+    background: rgb(255,199,0);
+    padding: 5px;
+    font-weight: 600;
+}
+
+.footer{
+    background: rgb(51, 51, 51);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 24px;
+}
